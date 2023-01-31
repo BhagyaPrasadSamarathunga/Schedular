@@ -1,0 +1,39 @@
+.container{
+    border: 1px solid;
+    box-shadow: 1px #888888;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(162, 161, 167);
+    margin: 50px;
+    border-radius: 10px;
+}
+.body {display:flex;
+    flex-direction: row;}
+
+.calendarContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 3;
+
+}
+.calendar {
+    /* background-color: teal; */
+    width: 500px;
+}
+.timezoneContainer {
+    padding: 10px;
+    color: white;
+}
+.time{
+    display: flex;
+    justify-content:center;
+    flex: 2;
+}
+.confirmationMessage {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 500px;
+    height: 500px;
+}

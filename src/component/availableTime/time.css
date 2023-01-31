@@ -1,0 +1,29 @@
+.timeListContainer {
+    min-width: 200px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.timeContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-top: 2px;
+}
+.timeButton {
+    display: flex;
+    flex: 2;
+    background-color:white;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-color:skyblue;
+}
+.confirmButton {
+    display: flex;
+    flex: 2;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 73, 245);
+    color: white;
+}

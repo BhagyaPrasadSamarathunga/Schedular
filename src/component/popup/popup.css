@@ -1,0 +1,29 @@
+.popup-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.popup-lable{
+    margin-bottom: 10px;
+}
+.popup-input{
+    height: 100px;
+}
+.popup-button-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.popup-cancel-button{
+    background-color: rgb(253, 253, 253);
+    border-color: rgb(6, 131, 180);
+    padding: 10px;
+    margin-right: 5px;
+
+}
+.popup-confirm-button{
+    background-color: rgb(6, 131, 180);
+    border-color: rgb(6, 131, 180);
+    padding: 10px;
+
+}
